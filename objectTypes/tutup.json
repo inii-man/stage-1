@@ -1,0 +1,14 @@
+{
+	"name": "tutup",
+	"plugin-id": "Button",
+	"sid": 359225242773027,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 700186536004334
+		}
+	]
+}

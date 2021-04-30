@@ -1,0 +1,15 @@
+{
+	"name": "Text",
+	"plugin-id": "Text",
+	"sid": 523465142170425,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 333730370656862
+		}
+	],
+	"effectTypes": []
+}

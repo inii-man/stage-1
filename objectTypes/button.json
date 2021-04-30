@@ -1,0 +1,14 @@
+{
+	"name": "Button",
+	"plugin-id": "Button",
+	"sid": 228226575644051,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 534867677498128
+		}
+	]
+}
