@@ -1,0 +1,111 @@
+{
+	"name": "Event sheet 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 246922058440030,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "stageClear",
+					"sid": 754869398384224,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "432",
+						"y": "220",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 262394911824943
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 824889247206476
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Button",
+					"sid": 429815463409920,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "stageClear",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 846181462841921
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 775859266162860,
+					"parameters": {
+						"object": "Button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 971567554793857
+				}
+			],
+			"sid": 748771660953662
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 190500884602452,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 885510974883354,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "cyan2",
+					"sid": 847774927088645
+				}
+			],
+			"sid": 603809706811021
+		}
+	],
+	"sid": 303360774842492
+}

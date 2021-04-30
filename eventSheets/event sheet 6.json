@@ -1,0 +1,159 @@
+{
+	"name": "Event sheet 6",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 179395467802068,
+					"parameters": {
+						"object": "cyan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "cyan",
+					"sid": 420880477237231
+				},
+				{
+					"id": "destroy",
+					"objectClass": "cyan2",
+					"sid": 382270276618862
+				}
+			],
+			"sid": 542684043428325
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 375187362598892,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "stageClear",
+					"sid": 687442356603615,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "432",
+						"y": "220",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 519412319223629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 169697188781187
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Button",
+					"sid": 824904906206631,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "stageClear",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 341531278758444
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 756119188877598,
+					"parameters": {
+						"object": "Button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 647163075613739
+				}
+			],
+			"sid": 648141969850852
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 683400538939483,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite",
+					"sid": 634857276913212
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 369748737985417
+				}
+			],
+			"sid": 869875233865899
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 941233890435591,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "bounce-off-object",
+					"objectClass": "Sprite9",
+					"sid": 379946080743719,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"sid": 909045295752525
+		}
+	],
+	"sid": 386091543036596
+}

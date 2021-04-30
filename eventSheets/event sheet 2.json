@@ -1,0 +1,232 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 441113460410624,
+					"parameters": {
+						"object": "cyan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "cyan",
+					"sid": 404075567180837
+				},
+				{
+					"id": "destroy",
+					"objectClass": "cyan2",
+					"sid": 794661841095755
+				}
+			],
+			"sid": 239677366226342
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 471699516718413,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "stageClear",
+					"sid": 901444803939799,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "432",
+						"y": "220",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 798853314321591
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 929331805590808,
+					"parameters": {
+						"object": "Spritetips"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "tips",
+					"sid": 783410107110083,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "434",
+						"y": "230",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 363062178352430
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 310620347367274,
+					"parameters": {
+						"object": "trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "cyan",
+					"sid": 306293123203170,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 368154747283095
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 958891585593224
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Button",
+					"sid": 111742360056640,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "stageClear",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Text",
+					"sid": 770522998751635,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "tips",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "tutup",
+					"sid": 311720984753215,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "tips",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "cyan",
+					"sid": 345605026252076,
+					"parameters": {
+						"opacity": "0"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "trigger",
+					"sid": 177195958515167,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 859361397664293
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 555373066986608,
+					"parameters": {
+						"object": "Button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 576827443097144
+				}
+			],
+			"sid": 913384320349185
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 581178878108538,
+					"parameters": {
+						"object": "tutup"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "tips",
+					"sid": 657362969073309,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "434",
+						"y": "647",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 415707886117073
+		}
+	],
+	"sid": 306387930283915
+}
