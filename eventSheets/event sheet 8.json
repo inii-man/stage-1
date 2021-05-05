@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 3",
+	"name": "Event sheet 8",
 	"events": [
 		{
 			"eventType": "block",
@@ -7,7 +7,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 441113460410624,
+					"sid": 147184669321373,
 					"parameters": {
 						"object": "cyan"
 					}
@@ -17,15 +17,15 @@
 				{
 					"id": "destroy",
 					"objectClass": "cyan",
-					"sid": 404075567180837
+					"sid": 411100301294085
 				},
 				{
 					"id": "destroy",
 					"objectClass": "cyan2",
-					"sid": 794661841095755
+					"sid": 143256843956734
 				}
 			],
-			"sid": 239677366226342
+			"sid": 647614041338029
 		},
 		{
 			"eventType": "block",
@@ -33,7 +33,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 471699516718413,
+					"sid": 140226504099720,
 					"parameters": {
 						"object": "Sprite3"
 					}
@@ -43,7 +43,7 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "stageClear",
-					"sid": 901444803939799,
+					"sid": 961657487592371,
 					"behaviorType": "MoveTo",
 					"parameters": {
 						"x": "432",
@@ -52,7 +52,7 @@
 					}
 				}
 			],
-			"sid": 798853314321591
+			"sid": 623978253720621
 		},
 		{
 			"eventType": "block",
@@ -60,7 +60,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 929331805590808,
+					"sid": 219782612633220,
 					"parameters": {
 						"object": "Spritetips"
 					}
@@ -70,7 +70,7 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "tips",
-					"sid": 783410107110083,
+					"sid": 947385830649877,
 					"behaviorType": "MoveTo",
 					"parameters": {
 						"x": "434",
@@ -79,7 +79,7 @@
 					}
 				}
 			],
-			"sid": 363062178352430
+			"sid": 880382238286191
 		},
 		{
 			"eventType": "block",
@@ -87,7 +87,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 310620347367274,
+					"sid": 897883753068167,
 					"parameters": {
 						"object": "trigger"
 					}
@@ -97,13 +97,13 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "cyan",
-					"sid": 306293123203170,
+					"sid": 614763257360320,
 					"parameters": {
 						"opacity": "100"
 					}
 				}
 			],
-			"sid": 368154747283095
+			"sid": 417751790089165
 		},
 		{
 			"eventType": "block",
@@ -111,14 +111,14 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 958891585593224
+					"sid": 799337244655461
 				}
 			],
 			"actions": [
 				{
 					"id": "pin-to-object-properties",
 					"objectClass": "Button",
-					"sid": 111742360056640,
+					"sid": 183680517970716,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "stageClear",
@@ -133,7 +133,7 @@
 				{
 					"id": "pin-to-object-properties",
 					"objectClass": "Text",
-					"sid": 770522998751635,
+					"sid": 702829974672821,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "tips",
@@ -148,7 +148,7 @@
 				{
 					"id": "pin-to-object-properties",
 					"objectClass": "tutup",
-					"sid": 311720984753215,
+					"sid": 177454626193750,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "tips",
@@ -163,7 +163,7 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "cyan",
-					"sid": 345605026252076,
+					"sid": 875504348652454,
 					"parameters": {
 						"opacity": "0"
 					}
@@ -171,13 +171,13 @@
 				{
 					"id": "set-opacity",
 					"objectClass": "trigger",
-					"sid": 177195958515167,
+					"sid": 298573786693660,
 					"parameters": {
 						"opacity": "0"
 					}
 				}
 			],
-			"sid": 859361397664293
+			"sid": 578602108794971
 		},
 		{
 			"eventType": "block",
@@ -185,7 +185,7 @@
 				{
 					"id": "on-tap-object",
 					"objectClass": "Touch",
-					"sid": 555373066986608,
+					"sid": 873080906088019,
 					"parameters": {
 						"object": "Button"
 					}
@@ -195,10 +195,10 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 576827443097144
+					"sid": 248546324983862
 				}
 			],
-			"sid": 913384320349185
+			"sid": 353394914128864
 		},
 		{
 			"eventType": "block",
@@ -206,7 +206,7 @@
 				{
 					"id": "on-tap-object",
 					"objectClass": "Touch",
-					"sid": 581178878108538,
+					"sid": 845713953190103,
 					"parameters": {
 						"object": "tutup"
 					}
@@ -216,7 +216,7 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "tips",
-					"sid": 657362969073309,
+					"sid": 175525178523609,
 					"behaviorType": "MoveTo",
 					"parameters": {
 						"x": "434",
@@ -225,8 +225,34 @@
 					}
 				}
 			],
-			"sid": 415707886117073
+			"sid": 453607288722485
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 767445779176639,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite",
+					"sid": 501067533743446
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 979750898784155
+				}
+			],
+			"sid": 842420024801211
 		}
 	],
-	"sid": 306387930283915
+	"sid": 300218665169416
 }

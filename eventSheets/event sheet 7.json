@@ -7,7 +7,33 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 993587624080408,
+					"sid": 626949331652821,
+					"parameters": {
+						"object": "merah"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "merah",
+					"sid": 290381877788214
+				},
+				{
+					"id": "destroy",
+					"objectClass": "merah2",
+					"sid": 762083475755585
+				}
+			],
+			"sid": 195826897614455
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 517229751675684,
 					"parameters": {
 						"object": "cyan"
 					}
@@ -17,15 +43,15 @@
 				{
 					"id": "destroy",
 					"objectClass": "cyan",
-					"sid": 641663075230945
+					"sid": 504152342949081
 				},
 				{
 					"id": "destroy",
 					"objectClass": "cyan2",
-					"sid": 715920706497645
+					"sid": 441233618816938
 				}
 			],
-			"sid": 831908328174763
+			"sid": 641428953537996
 		},
 		{
 			"eventType": "block",
@@ -33,25 +59,25 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 823110271598546,
+					"sid": 620822815980975,
 					"parameters": {
-						"object": "Sprite8"
+						"object": "biru"
 					}
 				}
 			],
 			"actions": [
 				{
 					"id": "destroy",
-					"objectClass": "Sprite",
-					"sid": 467219471543736
+					"objectClass": "biru",
+					"sid": 276416731204132
 				},
 				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 216215192097059
+					"id": "destroy",
+					"objectClass": "biru2",
+					"sid": 189000258426033
 				}
 			],
-			"sid": 630015868737993
+			"sid": 319789595808010
 		},
 		{
 			"eventType": "block",
@@ -59,7 +85,33 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite",
-					"sid": 334319805530909,
+					"sid": 477097375219189,
+					"parameters": {
+						"object": "ungu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ungu",
+					"sid": 445726251352460
+				},
+				{
+					"id": "destroy",
+					"objectClass": "ungu2",
+					"sid": 975158064332996
+				}
+			],
+			"sid": 304517057973268
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 531771502741688,
 					"parameters": {
 						"object": "Sprite3"
 					}
@@ -69,7 +121,7 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "stageClear",
-					"sid": 180747302029239,
+					"sid": 668510871975496,
 					"behaviorType": "MoveTo",
 					"parameters": {
 						"x": "432",
@@ -78,7 +130,7 @@
 					}
 				}
 			],
-			"sid": 690353731575118
+			"sid": 441235767473657
 		},
 		{
 			"eventType": "block",
@@ -86,14 +138,14 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 781426203219304
+					"sid": 679345931239612
 				}
 			],
 			"actions": [
 				{
 					"id": "pin-to-object-properties",
 					"objectClass": "Button",
-					"sid": 853011370177502,
+					"sid": 961185259977965,
 					"behaviorType": "Pin",
 					"parameters": {
 						"pin-to": "stageClear",
@@ -106,7 +158,7 @@
 					}
 				}
 			],
-			"sid": 820774592753010
+			"sid": 760986658088221
 		},
 		{
 			"eventType": "block",
@@ -114,7 +166,7 @@
 				{
 					"id": "on-tap-object",
 					"objectClass": "Touch",
-					"sid": 904620609406651,
+					"sid": 180389804980513,
 					"parameters": {
 						"object": "Button"
 					}
@@ -124,11 +176,49 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 408313512514864
+					"sid": 981786480154090
 				}
 			],
-			"sid": 892853121393442
+			"sid": 111499562414245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 773680931249402,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite",
+					"sid": 616905089616173
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 586775808779147
+				}
+			],
+			"sid": 282267912160932
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 933773606893712
+				}
+			],
+			"actions": [],
+			"sid": 588481056963881
 		}
 	],
-	"sid": 201225963168371
+	"sid": 850434502844109
 }

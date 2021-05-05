@@ -6,6 +6,42 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "cyan",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 103,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 438,
+						"y": 307,
+						"width": 30,
+						"height": 27,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite2",
 					"properties": {
 						"initially-visible": true,
@@ -14,7 +50,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 130,
+					"uid": 104,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -50,7 +86,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 131,
+					"uid": 105,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -86,7 +122,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 132,
+					"uid": 106,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -122,7 +158,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 133,
+					"uid": 107,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -158,7 +194,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 134,
+					"uid": 108,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -194,7 +230,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 135,
+					"uid": 114,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -230,7 +266,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 136,
+					"uid": 115,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -266,7 +302,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 137,
+					"uid": 116,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -302,7 +338,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 138,
+					"uid": 117,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -338,7 +374,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 139,
+					"uid": 118,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -374,7 +410,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 140,
+					"uid": 119,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -410,7 +446,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 141,
+					"uid": 120,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -438,6 +474,42 @@
 					}
 				},
 				{
+					"type": "cyan2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 121,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 438,
+						"y": 80,
+						"width": 114,
+						"height": 27,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Sprite2",
 					"properties": {
 						"initially-visible": true,
@@ -446,7 +518,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 143,
+					"uid": 122,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -474,7 +546,7 @@
 					}
 				}
 			],
-			"sid": 685616206315829,
+			"sid": 416231629745442,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -511,7 +583,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 144,
+					"uid": 123,
 					"instanceVariables": {},
 					"behaviors": {
 						"MoveTo": {
@@ -555,7 +627,7 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 145,
+					"uid": 124,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -582,7 +654,7 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Hindari ghost dan pergi ke goals",
+						"text": "hindari ghost dan ambil kunci",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -601,13 +673,13 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 146,
+					"uid": 125,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 34,
 						"y": 414,
-						"width": 242,
+						"width": 232,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -643,7 +715,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 147,
+					"uid": 126,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -672,7 +744,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 148,
+					"uid": 127,
 					"instanceVariables": {},
 					"behaviors": {
 						"8Direction": {
@@ -716,7 +788,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Sprite8",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -724,84 +796,27 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 129,
+					"uid": 128,
 					"instanceVariables": {},
 					"behaviors": {
-						"Bullet": {
+						"Orbit": {
 							"properties": {
-								"speed": 200,
+								"speed": 180,
 								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": false,
-								"set-angle": true,
-								"step": false,
-								"enabled": true
+								"primary-axis": 100,
+								"secondary-axis": 100,
+								"offset-angle": 0,
+								"match-rotation": true,
+								"enabled": true,
+								"live-preview": false
 							}
 						}
 					},
 					"world": {
-						"x": 440,
-						"y": 146,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite10",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 142,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 293,
-						"y": 145,
-						"width": 21,
-						"height": 22,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite10",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 149,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 577,
-						"y": 145,
-						"width": 21,
-						"height": 22,
+						"x": 437,
+						"y": 310,
+						"width": 45,
+						"height": 42,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -815,7 +830,7 @@
 					}
 				}
 			],
-			"sid": 205847910439977,
+			"sid": 842516048696149,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -840,7 +855,7 @@
 			"global": false
 		}
 	],
-	"sid": 373183290124919,
+	"sid": 948660075236453,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 854,

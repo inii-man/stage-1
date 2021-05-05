@@ -1,0 +1,256 @@
+{
+	"name": "1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 738807137461395,
+					"parameters": {
+						"object": "cyan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "cyan",
+					"sid": 384689221207856
+				},
+				{
+					"id": "destroy",
+					"objectClass": "cyan2",
+					"sid": 440078441881145
+				}
+			],
+			"sid": 652820779092312
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 908151578733893,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "stageClear",
+					"sid": 217935744513535,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "432",
+						"y": "220",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 912608062264194
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 386074259895557,
+					"parameters": {
+						"object": "triggerkey"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite5",
+					"sid": 438209458509156,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "triggerkey",
+					"sid": 957481863282194
+				}
+			],
+			"sid": 796644480456040
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 506260511919830,
+					"parameters": {
+						"object": "triggerkey2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite6",
+					"sid": 268028972607187,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "triggerkey2",
+					"sid": 790483513857790
+				}
+			],
+			"sid": 833141966819621
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 739232075904957,
+					"parameters": {
+						"object": "triggerkey3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite7",
+					"sid": 286382165677151,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "triggerkey3",
+					"sid": 614671332157535
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cyan",
+					"sid": 889314673820066,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "cyan",
+					"sid": 757288532311531,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 503088073797245
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 651975162548002
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "Button",
+					"sid": 159016644115431,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "stageClear",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 872150341660001
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 713437003563227,
+					"parameters": {
+						"object": "Button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 577907795527973
+				}
+			],
+			"sid": 826808037304565
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 183292385208563
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "cyan",
+					"sid": 720870691980592,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite5",
+					"sid": 582921150969837,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite6",
+					"sid": 901164674500352,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite7",
+					"sid": 513614576336497,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 701907286984950
+		}
+	],
+	"sid": 349623559860493
+}

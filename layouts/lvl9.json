@@ -1,5 +1,5 @@
 {
-	"name": "lvl1",
+	"name": "lvl9",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -14,7 +14,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 170,
+					"uid": 348,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -25,8 +25,8 @@
 						}
 					},
 					"world": {
-						"x": 438,
-						"y": 307,
+						"x": 787,
+						"y": 64,
 						"width": 30,
 						"height": 27,
 						"originX": 0.5,
@@ -50,7 +50,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 171,
+					"uid": 349,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -86,7 +86,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 172,
+					"uid": 350,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -122,7 +122,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 173,
+					"uid": 351,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -158,7 +158,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 174,
+					"uid": 352,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -194,7 +194,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 175,
+					"uid": 353,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -230,7 +230,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 176,
+					"uid": 354,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -266,7 +266,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 177,
+					"uid": 355,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -302,7 +302,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 178,
+					"uid": 356,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -338,7 +338,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 179,
+					"uid": 357,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -374,7 +374,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 180,
+					"uid": 358,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -410,7 +410,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 181,
+					"uid": 359,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -446,7 +446,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 182,
+					"uid": 360,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -482,7 +482,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 183,
+					"uid": 361,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -518,7 +518,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 184,
+					"uid": 362,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -546,7 +546,7 @@
 					}
 				}
 			],
-			"sid": 988631148584548,
+			"sid": 241050752864659,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -583,7 +583,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 185,
+					"uid": 363,
 					"instanceVariables": {},
 					"behaviors": {
 						"MoveTo": {
@@ -627,7 +627,7 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 186,
+					"uid": 364,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -654,7 +654,7 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Ambil Kunci dan pergi ke goals",
+						"text": "Jelajahi maps dan temukan object yang bisa di interaksi (ketika collision dengan vas bunga harusnya mengeluarkan popup interaksi dan object akan muncul bila player menekan tombol interaksi tersebut)",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -673,14 +673,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 187,
+					"uid": 365,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 34,
-						"y": 414,
-						"width": 224,
-						"height": 30,
+						"x": 33,
+						"y": 396,
+						"width": 735,
+						"height": 49,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -715,7 +715,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 188,
+					"uid": 366,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -744,7 +744,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 189,
+					"uid": 367,
 					"instanceVariables": {},
 					"behaviors": {
 						"8Direction": {
@@ -786,9 +786,122 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite12",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 368,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 587,
+						"y": 208,
+						"width": 88,
+						"height": 40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text3",
+					"properties": {
+						"text": "Vas bunga",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 369,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 546,
+						"y": 196,
+						"width": 83,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite13",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 371,
+					"instanceVariables": {},
+					"behaviors": {
+						"Orbit": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"primary-axis": 100,
+								"secondary-axis": 100,
+								"offset-angle": 0,
+								"match-rotation": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 336,
+						"y": 295,
+						"width": 34,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 610351975791856,
+			"sid": 977876121986836,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -813,11 +926,11 @@
 			"global": false
 		}
 	],
-	"sid": 715096499748604,
+	"sid": 216309199603296,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 854,
 	"height": 480,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Event sheet 9"
 }

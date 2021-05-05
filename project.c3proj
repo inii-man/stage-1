@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 24100,
-	"name": "Stage1",
+	"name": "konsep meng",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -42,6 +42,14 @@
 			"type": "plugin",
 			"id": "Text",
 			"name": "Text",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
@@ -133,7 +141,10 @@
 			"Sprite8",
 			"Sprite9",
 			"Sprite10",
-			"Sprite11"
+			"Sprite11",
+			"Sprite12",
+			"TiledBackground",
+			"Sprite13"
 		],
 		"subfolders": []
 	},
@@ -145,27 +156,67 @@
 	},
 	"layouts": {
 		"items": [
-			"template",
-			"lvl1",
-			"lvl2",
-			"lvl3",
-			"lvl4",
-			"lvl6",
-			"lvl7"
+			"template"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"1",
+					"2",
+					"3"
+				],
+				"subfolders": [],
+				"name": "test"
+			},
+			{
+				"items": [
+					"lvl1",
+					"lvl2",
+					"lvl3",
+					"lvl4",
+					"lvl5",
+					"lvl6",
+					"lvl7",
+					"lvl8",
+					"lvl9",
+					"lvl10"
+				],
+				"subfolders": [],
+				"name": "stage 1"
+			}
+		]
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
-			"Event sheet 2",
-			"Event sheet 3",
-			"template",
-			"Event sheet 7",
-			"Event sheet 6",
-			"Event sheet 4"
+			"template"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"1",
+					"2",
+					"3"
+				],
+				"subfolders": [],
+				"name": "test"
+			},
+			{
+				"items": [
+					"Event sheet 1",
+					"Event sheet 2",
+					"Event sheet 3",
+					"Event sheet 4",
+					"Event sheet 6",
+					"Event sheet 7",
+					"Event sheet 5",
+					"Event sheet 10",
+					"Event sheet 8",
+					"Event sheet 9"
+				],
+				"subfolders": [],
+				"name": "stage 1"
+			}
+		]
 	},
 	"rootFileFolders": {
 		"script": {

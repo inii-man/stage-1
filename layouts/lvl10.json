@@ -1,5 +1,5 @@
 {
-	"name": "lvl1",
+	"name": "lvl10",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -14,7 +14,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 170,
+					"uid": 302,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -50,7 +50,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 171,
+					"uid": 303,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -86,7 +86,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 172,
+					"uid": 304,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -122,7 +122,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 173,
+					"uid": 305,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -158,7 +158,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 174,
+					"uid": 306,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -194,7 +194,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 175,
+					"uid": 307,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -230,7 +230,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 176,
+					"uid": 308,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -266,7 +266,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 177,
+					"uid": 309,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -302,7 +302,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 178,
+					"uid": 310,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -338,7 +338,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 179,
+					"uid": 311,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -374,7 +374,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 180,
+					"uid": 312,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -410,7 +410,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 181,
+					"uid": 313,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -446,7 +446,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 182,
+					"uid": 314,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -482,7 +482,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 183,
+					"uid": 315,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -518,7 +518,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 184,
+					"uid": 316,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -546,7 +546,7 @@
 					}
 				}
 			],
-			"sid": 988631148584548,
+			"sid": 438382733344231,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -583,7 +583,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 185,
+					"uid": 317,
 					"instanceVariables": {},
 					"behaviors": {
 						"MoveTo": {
@@ -627,7 +627,7 @@
 						"checked": false,
 						"id": ""
 					},
-					"uid": 186,
+					"uid": 318,
 					"instanceVariables": {},
 					"behaviors": {
 						"Pin": {
@@ -654,7 +654,7 @@
 				{
 					"type": "Text3",
 					"properties": {
-						"text": "Ambil Kunci dan pergi ke goals",
+						"text": "template",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -673,13 +673,13 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 187,
+					"uid": 319,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 34,
 						"y": 414,
-						"width": 224,
+						"width": 70,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -715,7 +715,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 188,
+					"uid": 320,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -744,7 +744,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 189,
+					"uid": 321,
 					"instanceVariables": {},
 					"behaviors": {
 						"8Direction": {
@@ -788,7 +788,7 @@
 					}
 				}
 			],
-			"sid": 610351975791856,
+			"sid": 988594000074508,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -813,11 +813,11 @@
 			"global": false
 		}
 	],
-	"sid": 715096499748604,
+	"sid": 544431162795459,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 854,
 	"height": 480,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Event sheet 10"
 }
